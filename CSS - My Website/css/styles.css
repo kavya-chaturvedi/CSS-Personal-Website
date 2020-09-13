@@ -1,0 +1,201 @@
+div{
+  background-color: #f1f3f8;
+}
+body{
+  margin: 0; /* SETS ALL THE 4 MARGINS AS 0 */
+  text-align: center;
+  font-family: Verdana,Geneva, sans-serif;
+
+}
+
+h1{
+  margin-top: 50px;
+  font-family: 'Rouge Script', cursive;
+  /* == STATIC FONT-SIZE ==
+  /*font-size: 90px;*/
+  /* == DYNAMIC FONT - SIZE ====*/
+  /*font-size: 700%;*/
+  font-size: 7rem;
+  color:#595238;
+
+/* ====== IF WIDTH IS SET TO % CENTER ALIGN THE STUFF BY USING MARGIN SET TO (0 AUTO) === */
+  /*width: 10%;
+  margin:0 auto;*/
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color:#5a3d55;
+}
+
+h3{
+  font-family: 'Bree Serif', serif;
+  font-size: 2rem;
+  color:#595238;
+  font-weight: normal;
+}
+
+p{
+  color:#40514E;
+}
+.bottom-container{
+background-color: #dbcbbd;
+margin-bottom: 0;
+height: 100px;
+padding-top: 70px;
+
+  /*height: 200px;
+  width: 200px;
+
+  /*
+  border: 10px;
+  border-style:solid;
+  margin-left: 500px;
+  */
+}
+
+.Middle-Container{
+  /*height: 200px;
+  width: 200px;
+  background-color: red;*/
+  /*
+  border: 20px;
+  border-style:solid;
+  margin-left: 260px;
+  */
+}
+
+.Top-Container{
+
+  background-color: #e4e3e3;
+  padding-top: 100px;
+
+  position : relative;
+  line-height: 80px;
+  /*
+  border: 10px;
+  height: 200px;
+  width: 200px;
+  border-style:solid;
+  padding: 20px;
+*/
+}
+
+
+
+
+.bottom-cloud{
+  position:absolute;
+  left:500px;
+}
+
+.top-cloud{
+  position:absolute;
+  right:500px;
+  top:50px;
+}
+
+.profile-pic{
+  border-radius: 800px;
+  height: 400px;
+  width:30%;
+}
+
+.skills-image{
+
+  height: 200px;
+  width: 25%;
+  float:left;
+  padding-right: 50px;
+
+
+}
+
+.gaming-image{
+
+  height: 200px;
+  width: 25%;
+
+  float:right;
+  padding-left:50px;
+
+}
+
+.mountain{
+  height: 500px;
+}
+.footer-link{
+  color:#5a3d55;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/*
+.code-skill-description{
+  clear:left;
+}
+.Extra-skill-description{
+  clear:right;
+}
+*/
+hr{
+  margin:100px auto;
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: grey;
+}
+
+.Copy-right-para{
+  margin-bottom: 0;
+  color:white;
+}
+
+.copyright-owner-name{
+  text-decoration: underline;
+}
+
+.contact-me{
+
+}
+
+.contact-message{
+  margin-bottom: 50px;
+}
+
+.extra-message{
+  margin-bottom: 50px;
+}
+.contact-para{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.btn {
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+  margin-bottom: 140px;
+
+}
+.btn:hover {
+	background-color:#b34332;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
